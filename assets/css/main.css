@@ -1,0 +1,260 @@
+body {
+  background-image: url(../img/fundo-body.png);
+}
+
+#container {
+  width: 950px;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fundoGame {
+  width: 900px;
+  height: 500px;
+  background-image: url(../img/Back-city.jpg);
+  border-color: black;
+  border-style: solid;
+}
+
+#inicio {
+  width: 350px;
+  height: 200px;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.img {
+  width: 300px;
+}
+
+.p1 {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  opacity: 75%;
+}
+
+#jogador {
+  width: 221px;
+  height: 74px;
+  size: 20%;
+  position: absolute;
+  left: 8px;
+  top: 179px;
+  background-image: url(../img/krypto-avatar.png);
+}
+
+#lex {
+  width: 130px;
+  height: 169px;
+  position: absolute;
+  left: 689px;
+  top: 253px;
+  background-image: url(../img/lex-luthor.png);
+}
+
+#carro {
+  width: 260px;
+  height: 105px;
+  position: absolute;
+  left: 650px;
+  top: 400px;
+  background-image: url(../img/carro.png);
+}
+
+#civil {
+  width: 44px;
+  height: 51px;
+  position: absolute;
+  left: 10px;
+  top: 458px;
+  background-image: url(../img/amigo.png);
+}
+
+#disparo {
+  width: 171px;
+  height: 30px;
+  position: absolute;
+  background-image: url(../img/laser.png);
+}
+
+#explosao1 {
+  width: 15px;
+  height: 87px;
+  position: absolute;
+}
+
+#explosao2 {
+  width: 15px;
+  height: 87px;
+  position: absolute;
+}
+
+#explosao3 {
+  width: 44px;
+  height: 51px;
+  position: absolute;
+}
+
+.anima3 {
+  background-image: url(../img/amigo.png);
+  animation: play2 0.9s steps(12) infinite;
+  -webkit-animation: play2 0.9s steps(12) infinite;
+  -moz-animation: play2 0.9s steps(12) infinite;
+  -ms-animation: play2 0.9s steps(12) infinite;
+  -o-animation: play2 0.9s steps(12) infinite;
+}
+
+@keyframes play2 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -528px;
+  }
+}
+
+@-webkit-keyframes play2 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -528px;
+  }
+}
+
+@-moz-keyframes play2 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -528px;
+  }
+}
+
+@-ms-keyframes play2 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -528px;
+  }
+}
+
+@-o-keyframes play2 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -528px;
+  }
+}
+
+.anima4 {
+  width: 44px;
+  height: 51px;
+  background-image: url(../img/amigo_morte.png);
+  animation: play3 0.5s steps(7) infinite;
+  -webkit-animation: play3 0.5s steps(7) infinite;
+  -moz-animation: play3 0.5s steps(7) infinite;
+  -ms-animation: play3 0.5s steps(7) infinite;
+  -o-animation: play3 0.5s steps(7) infinite;
+}
+
+@keyframes play3 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -100px;
+  }
+}
+
+@-webkit-keyframes play3 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -100px;
+  }
+}
+
+@-moz-keyframes play3 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -100px;
+  }
+}
+
+@-ms-keyframes play3 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -100px;
+  }
+}
+
+@-o-keyframes play3 {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -100px;
+  }
+}
+
+#placar {
+  width: 400px;
+  height: 25px;
+  position: absolute;
+  left: 15px;
+  top: 20px;
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+#vidas {
+  width: 198px;
+  height: 34px;
+  position: absolute;
+  left: 600px;
+  top: 35px;
+}
+
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+#fim {
+  width: 350px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 25%;
+}
+
+.p {
+  background-color: red;
+  border-color: black;
+  border-radius: 25%;
+}

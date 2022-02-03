@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../GameJS/assets/css/main.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="../GameJS/assets/img/m_inicio.ico">
+    <title>Kripto!</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="fundoGame">
+            <div id="inicio">
+                <p class="p1">
+                    Clique no Krypto para começar!
+                </p>
+                <div class="img" onclick="start()">
+                    <img class="img" src="../GameJS/assets/img/inicio.png" alt="Krypto">
+                </div>
+                <p>
+                    Utilize a tecla W para subir, a tecla A para ir para trás, a tecla S para ir para baixo, a tecla D para ir para frente e a tecla ENTER para disparar.<br>
+                    Derrote Lex Luthor com seus capangas e resgate o civil que está em apuros!
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- sons do jogo -->
+
+    <audio src="../Nav Game/assets/sons/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="../Nav Game/assets/sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="../Nav Game/assets/sons/musica.mp3" preload="auto" id="musica"></audio>
+    <audio src="../Nav Game/assets/sons/gameover.mp3" preload="auto" id="somGameOver"></audio>
+    <audio src="../Nav Game/assets/sons/perdido.mp3" preload="auto" id="somPerdido"></audio>
+    <audio src="../Nav Game/assets/sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+    <script src="../GameJS/assets/js/script.js"></script>
+    <script src="../GameJS/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/62da6c778c.js" crossorigin="anonymous"></script>
+    <script src="../GameJS/assets/js/jquery-collision.min.js"></script>
+</body>
+</html>
