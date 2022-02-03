@@ -1,6 +1,8 @@
 # krypto
 Jogo desenvolvido como projeto do Bootcamp FullStack da MRV - DIO
 
+![img](https://user-images.githubusercontent.com/93561479/152422776-91f60e1f-7609-4238-99c2-2df92200d731.PNG)
+
 Neste projeto utilizei tecnologias front-end como: HTML, CSS e JAVASCRIPT, junto com o Framework JQUERY;
 
 A ideia base é fazer um jogo de resgate com helicópteros, mas busquei colocar em um universo de meu meu gosto que é o universo do cinema;<br>
