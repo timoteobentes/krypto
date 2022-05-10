@@ -268,7 +268,7 @@ function start() {
 
         somExplosao.play();
         $("#fundoGame").append("<div id='explosao1'></div>");
-        $("#explosao1").css("background-image", "url('../GameJS/assets/img/explosao.png')");
+        $("#explosao1").css("background-image", "url('./assets/img/explosao.png')");
 
         var div = $("#explosao1");
 
@@ -307,7 +307,7 @@ function start() {
 
         somExplosao.play();
         $("#fundoGame").append("<div id='explosao2'></div>");
-        $("#explosao2").css("background-image", "url('../GameJS/assets/img/explosao.png')");
+        $("#explosao2").css("background-image", "url('./assets/img/explosao.png')");
 
         var div2 = $("#explosao2");
 
@@ -366,22 +366,22 @@ function start() {
 
     function vidas() {
         if(vidaAtual == 5) {
-            $("#vidas").css("background-image", "url('../GameJS/assets/img/vidas-5.png')");
+            $("#vidas").css("background-image", "url('./assets/img/vidas-5.png')");
         }
         if(vidaAtual == 4) {
-            $("#vidas").css("background-image", "url('../GameJS/assets/img/vidas-4.png')");
+            $("#vidas").css("background-image", "url('./assets/img/vidas-4.png')");
         }
         if(vidaAtual == 3) {
-            $("#vidas").css("background-image", "url('../GameJS/assets/img/vidas-3.png')");
+            $("#vidas").css("background-image", "url('./assets/img/vidas-3.png')");
         }
         if(vidaAtual == 2) {
-            $("#vidas").css("background-image", "url('../GameJS/assets/img/vidas-2.png')");
+            $("#vidas").css("background-image", "url('./assets/img/vidas-2.png')");
         }
         if(vidaAtual == 1) {
-            $("#vidas").css("background-image", "url('../GameJS/assets/img/vidas-1.png')");
+            $("#vidas").css("background-image", "url('./assets/img/vidas-1.png')");
         }
         if(vidaAtual == 0) {
-            $("#vidas").css("background-image", "url('../GameJS/assets/img/vidas-0.png')");
+            $("#vidas").css("background-image", "url('./assets/img/vidas-0.png')");
             // Game Over
             gameOver();
         }

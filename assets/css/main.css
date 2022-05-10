@@ -1,5 +1,6 @@
 body {
   background-image: url(../img/fundo-body.png);
+  background-size: 100%;
 }
 
 #container {
@@ -257,4 +258,16 @@ h3 {
   background-color: red;
   border-color: black;
   border-radius: 25%;
+}
+
+footer {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
